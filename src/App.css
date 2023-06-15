@@ -1,0 +1,275 @@
+.header{
+  font-size: 30px;
+  font-family: Lato,sans-serif;
+  width: auto;
+  
+      text-align: left;
+     }
+    
+li{
+  font-size: small;
+}
+#porter{
+  line-height: 1.2em;
+  color:#0000;
+  text-shadow:0 0 #000, 0 1.2em #1095c1;
+  overflow:hidden;
+  transition:0.3s;
+
+}
+#porter:hover{
+  text-shadow: 0 --1.2em #000, 0 0 #1095c1;
+}
+
+
+.main{
+  padding-top: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color:white;
+  background-color:#4037B6;
+  height: 300px;
+  border-radius: 30px;
+}
+
+
+h1{
+  text-align: left;
+}
+.rewards{
+  /* background-image: url("); */
+  background-color: #211D7E;
+  height: 800px;
+  width: auto;
+  border-radius: 0 0 20px 20px;
+  padding: 5%;
+
+}
+.history,details{
+  padding: 0px 20px 20px 20px;
+  font-family: Lato,sans-serif; 
+}
+.history{
+  font-family: Lato,sans-serif;  
+}
+.history h6{
+  color:grey;
+}
+.history p{
+  font-size: 15px;
+  color:#333333;
+}
+.bottomsheet{
+  font-family: Roboto,Helvetica Neue,sans-serif; 
+}
+.firstuser{
+  font-family: Roboto,Helvetica Neue,sans-serif;
+  padding: 0px 20px 20px 20px;
+}
+.image{
+float:right;
+padding-right: 15px;
+padding-top: 5px;
+ 
+}
+.image1{
+  float:right;
+}
+
+.inner{
+  padding:15px 10px 0px 10px;
+  position:relative;
+  float:left;
+  display:inline;
+}
+.rating{
+position:static;
+padding:20px 10px 0px 10px;
+color:'white';
+}
+.mainHeader {
+  /* padding: 12px 18px; */
+  
+  color: #fff;
+  text-align: center;
+}
+.main-block {
+  padding: 16px;
+  max-width:auto;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.fixedTop {
+  width: 100%;
+  /* padding: 12px 18px; */
+  position: fixed;
+  top: 0;
+ 
+}
+.fixedTop + .main-block {
+  padding-top: 102px;
+}
+
+.swipe .points{
+  background-image: url('/home/anilreddy/porter-app/src/porter/swiper_card_bg.png');
+  background-repeat: no-repeat;
+  background-size:cover; 
+  width:auto;
+  display:flex;
+  margin:1%;
+  
+}
+
+.swipe .swiper {
+  width: auto;
+  height: auto;
+  margin:0.5rem;
+  
+}
+
+
+.swipe{
+  padding-top: 20px;
+  font-family: Lato,sans-serif; 
+  
+}
+.model h3{
+  font-family: Lato,sans-serif; 
+  font-size: 20px;
+  padding:1.0rem;
+}
+
+.swipe .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height:auto;
+  width:auto;
+  border-radius: 10px;
+  transform: translate3d(-5.2px, 0px, 0px);
+  margin-right:1px;
+  
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swipe .swiper-slide img {
+  float:right;
+  padding:2% ;
+}
+.swipe .swiper-slide p{
+  padding-top: 5%;
+}
+
+/* bottomslide css */
+
+
+
+
+
+/* bottomsheet css */
+
+
+.bottom-sheet-wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+}
+
+.bottom-sheet {
+  background: white;
+  border-radius: 20px 20px 0 0;
+  padding: 0 8px 16px 8px;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  top: calc(100px + 20px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  user-select: none;
+  transition: all 0.2s ease;
+  transform: translateY(calc(0));
+}
+
+.bottom-sheet.dragging {
+  transition: none;
+}
+
+.bottom-sheet.show {
+  transform: translateY(calc(-100 - 20px));
+}
+
+.bottom-sheet > div:not(.bottom-sheet-grip) {
+  padding: 4px;
+}
+
+.bottom-sheet-grip {
+  padding: 16px;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+
+.bottom-sheet-grip > div {
+  margin: 0 auto;
+  height: 4px;
+  background: black;
+  border-radius: 2px;
+  width: 25%;
+}
+/* icons css */
+.social-container {
+  background: #eee;
+  padding: 20px 20px;
+  border-radius: 20px;
+  
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+  
+}
+.media{
+  display: flex;
+  justify-content: space-around;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+h3{
+  text-align: center;
+  padding-bottom:10px;
+  line-height:1.2em;
+  color:#0000;
+  text-shadow: 0 0 #000,0 -1.2em #1095c1;
+  overflow:hidden;
+  transition:0.3s;
+}
+h3:hover{
+  text-shadow:0 -1.2em #000,0 0 #1095c1;
+}
