@@ -111,7 +111,8 @@ color:'white';
 }
 
 .swipe .points{
-  background-image: url('/home/anilreddy/porter-app/src/porter/swiper_card_bg.png');
+  background-image: url('/home/anilreddy/porter-app/build/porter/swiper_card_bg.png');
+  
   background-repeat: no-repeat;
   background-size:cover; 
   width:auto;
