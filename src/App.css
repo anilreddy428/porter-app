@@ -110,16 +110,15 @@ color:'white';
   padding-top: 102px;
 }
 
-.swipe .points{
-  background-image: url('/home/anilreddy/porter-app/build/porter/swiper_card_bg.png');
-  
+/* .swipe .points{
+  background-image: url('../porter/swiper_card_bg.png');
   background-repeat: no-repeat;
   background-size:cover; 
   width:auto;
   display:flex;
   margin:1%;
   
-}
+} */
 
 .swipe .swiper {
   width: auto;
