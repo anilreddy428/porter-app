@@ -121,8 +121,8 @@ color:'white';
 }
 
 .swipe .swiper {
-  width: auto;
-  height: auto;
+  width:auto;
+  height:15vh;
   margin:0.5rem;
   
 }
@@ -261,7 +261,7 @@ a.twitter {
 a.instagram {
   color: black;
 }
-h3{
+/* h3{
   text-align: center;
   padding-bottom:10px;
   line-height:1.2em;
@@ -272,4 +272,4 @@ h3{
 }
 h3:hover{
   text-shadow:0 -1.2em #000,0 0 #1095c1;
-}
+} */

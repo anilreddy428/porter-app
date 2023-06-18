@@ -25,11 +25,11 @@ const DemoCarousel=()=> {
      
      <Swiper >
       
-        <SwiperSlide   >
+        <SwiperSlide >
        
         <div className='points' onClick={handleShowClick}>
               <div role="button" >
-                  <p style={{fontSize:'large',paddingRight:'5%'}}>Earn 7 porter coins with every truck or 3-wheeler booking.</p>
+                  <p style={{fontSize:'medium',paddingRight:'5%'}}>Earn 7 porter coins with every truck or 3-wheeler booking.</p>
                   <a style={{float:'left',paddingLeft:'5%' ,fontSize:"small"}} href='linkurl'>Know more</a>
                   <img style={{float:'left',paddingLeft:'30%'}} src={star} alt="Card image cap" />
                 </div>
@@ -46,7 +46,7 @@ const DemoCarousel=()=> {
         <SwiperSlide>
         <div className='points' onClick={handleShowClick} >
               <div>
-                <p style={{fontSize:'large',paddingRight:'5%'}}>Earn 3 porter coins with every truck or 2-wheeler booking.</p>
+                <p style={{fontSize:'medium',paddingRight:'5%'}}>Earn 3 porter coins with every truck or 2-wheeler booking.</p>
                 <a style={{float:'left',paddingLeft:'5%',fontSize:"small"}}href='linkurl'>Know more</a>
                 <img style={{float:'left',paddingLeft:'30%'}} src={star} alt="Card image cap" />
               </div>
@@ -62,7 +62,7 @@ const DemoCarousel=()=> {
         <SwiperSlide>
         <div className='points' onClick={handleShowClick} >
               <div >
-                <p style={{fontSize:'large',paddingRight:'5%'}}>Earn 2 porter coins with every &#8377;100 spent.</p>
+                <p style={{fontSize:'medium',paddingRight:'5%'}}>Earn 2 porter coins with every &#8377;100 spent.</p>
                 <a style={{float:'left',paddingLeft:'5%',fontSize:"small"}}href='linkurl'>Know more</a>
                 <img style={{float:'left',paddingLeft:'30%'}} src={star} alt="Card image cap" />
               </div>
