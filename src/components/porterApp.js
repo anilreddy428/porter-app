@@ -44,7 +44,7 @@ const PorterPort=()=> {
       {!matches && (
         <div>
           
-        <h4 style={{padding:"10px 0px 10px 10px",}}>Porter Rewards Anil       
+        <h4 style={{padding:"10px 0px 10px 10px",}}>Porter Rewards       
         <img src={image} alt="image" className='image'></img></h4>
     <div className='page1'>
       <div className='rewards'>

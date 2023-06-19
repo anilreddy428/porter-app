@@ -27,7 +27,7 @@ const BottomSlide =()=>{
                     <h1 style={{textAlign:'center'}}>How to earn coins?</h1>
                     <img  src={frame} alt="Card image cap" style={{paddingTop:'10%',objectFit:'cover'}}/>
                    
-                    <p style={{paddingTop:'10%',paddingBottom:"20%"}}>Earn 7 porter coins with every truck or three-wheeler booking</p>
+                    <p style={{paddingTop:'30%',paddingBottom:"20%"}}>Earn 7 porter coins with every truck or three-wheeler booking</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -35,7 +35,7 @@ const BottomSlide =()=>{
                         <h1 style={{textAlign:'center'}}>How to earn coins?</h1>
                         <img  src={bikeframe} alt="Card image cap" style={{paddingTop:'10%',objectFit:'cover'}}/>
                     
-                        <p style={{paddingTop:'50%',paddingBottom:"20%"}}>Earn 7 porter coins with every truck or three-wheeler booking</p>
+                        <p style={{paddingTop:'30%',paddingBottom:"20%"}}>Earn 7 porter coins with every truck or three-wheeler booking</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -43,7 +43,7 @@ const BottomSlide =()=>{
                             <h1 style={{textAlign:'center'}}>How to earn coins?</h1>
                             <img  src={piggybank} alt="Card image cap" style={{paddingTop:'10%',objectFit:'cover'}}/>
                         
-                            <p style={{paddingTop:'50%',paddingBottom:"20%"}}>Earn 7 porter coins with every truck or three-wheeler booking</p>
+                            <p style={{paddingTop:'30%',paddingBottom:"20%"}}>Earn 7 porter coins with every truck or three-wheeler booking</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
