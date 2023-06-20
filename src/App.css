@@ -88,7 +88,7 @@ padding:20px 10px 0px 10px;
 color:'white';
 }
 .mainHeader {
-  /* padding: 12px 18px; */
+  padding: 12px 18px;
   
   color: #fff;
   text-align: center;
@@ -101,7 +101,7 @@ color:'white';
 }
 .fixedTop {
   width: 100%;
-  /* padding: 12px 18px; */
+  padding: 12px 18px;
   position: fixed;
   top: 0;
  
@@ -110,19 +110,19 @@ color:'white';
   padding-top: 102px;
 }
 
-/* .swipe .points{
-  background-image: url('../porter/swiper_card_bg.png');
+.swipe .points{
+  /* background-image: url('../porter/swiper_card_bg.png');
   background-repeat: no-repeat;
-  background-size:cover; 
+  background-size:cover;  */
   width:auto;
   display:flex;
   margin:1%;
   
-} */
+}
 
 .swipe .swiper {
   width: auto;
-  height: auto;
+  height: 16vh;
   margin:0.5rem;
   
 }
